@@ -68,3 +68,5 @@ git config --global alias.graph "log --all --graph --decorate --oneline"
 ## default settings
 
 git config --global core.editor vim
+
+git config --global core.quotepath false  # 修正中文乱码问题
