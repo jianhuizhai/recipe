@@ -60,3 +60,7 @@ Bisecting: 0 revisions left to test after this (roughly 0 steps)
 git log --oneline | tail -n 1
 ```
 finding the first commit
+
+## git graph
+
+git config --global alias.graph "log --all --graph --decorate --oneline"
