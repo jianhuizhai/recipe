@@ -64,3 +64,7 @@ finding the first commit
 ## git graph
 
 git config --global alias.graph "log --all --graph --decorate --oneline"
+
+## default settings
+
+git config --global core.editor vim
