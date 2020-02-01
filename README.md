@@ -61,6 +61,22 @@ git log --oneline | tail -n 1
 ```
 finding the first commit
 
+## generate ssh key 
+
+ssh-keygen -t rsa -C "jianhuizhai89@gmail.com"
+
+id_rsa (私钥)
+
+id_rsa.pub (公钥)
+
+## git settings
+
+git config --global user.name "用户名"
+
+git config --global user.email "邮箱"
+
+注：--global：表示这台机器上所有的Git仓库都会使用这个配置（也可以对某个仓库指定不同的用户名和Email地址）
+
 ## git graph
 
 git config --global alias.graph "log --all --graph --decorate --oneline"
